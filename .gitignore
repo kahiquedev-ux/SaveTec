@@ -1,0 +1,29 @@
+# Dependências do Node.js
+node_modules/
+
+# Arquivos com variáveis e segredos
+.env
+.env.*
+!.env.example
+
+# Builds
+dist/
+build/
+
+# Logs
+*.log
+
+# Configurações locais
+.vscode/
+.idea/
+
+# Sistema operacional
+Thumbs.db
+.DS_Store
+
+# Cookies e banco de dados local
+backend/cookies.json
+backend/database/savetec.sqlite
+
+# Arquivos temporários de monitoramento
+backend/*-watch.html
